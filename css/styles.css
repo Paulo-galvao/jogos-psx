@@ -1,0 +1,86 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #848884;
+}
+
+:root
+{
+    --container-bg: #343434; 
+    --main-org: #ffac1c;
+}
+
+header {
+    height: 70px;
+    background: var(--container-bg);
+    border-bottom: var(--main-org) solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    font-size: 1.5em;
+}
+
+main {
+    width: 100%;
+    min-width: 600px;
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1B1212;
+}
+
+footer {
+    height: 70px;
+    background: var(--container-bg);
+    border-top: var(--main-org) solid 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 555px;
+    background: var(--container-bg);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 9px #28282B ;
+}
+
+i {
+    cursor: pointer;
+    margin: 20px;
+    color: var(--main-org);
+    font-size: 2.2em;
+}
+
+img{
+    align-self: center;
+    margin: 20px 0;
+    border-radius: 7px;
+}
+
+h1 {
+    font-size: 1.3em;
+    text-align: center;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+h3{
+    font-size: 1.1em;
+}
+
+article p{
+    font-size: .85em;
+}
